@@ -23,7 +23,7 @@ lesson_obj.read(lesson_id, ['id', 'name', 'start_date'])
 }
 
 
-lesson_obj.browse(2).write({'start_date': '2018-10-01', 'end_date': '2018-12-01',})
+lesson_obj.browse(2).write({'start_date': '2018-1 0-01', 'end_date': '2018-12-01',})
 
 lesson_obj.browse(2).write({'start_date': '2018-10-01', 'end_date': '2018-12-01',})
 
