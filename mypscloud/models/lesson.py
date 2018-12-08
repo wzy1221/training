@@ -21,7 +21,7 @@ class TrainingLesson(models.Model):
         ('confirm', '确认'),
         ], string='状态', readonly=True, copy=False, index=True, default='draft')
     seat_qty = fields.Integer(string='座位数')
-    subject_id = fields.Many2one('mypscloud.training.subject', string='科目')
+#     subject_id = fields.Many2one('mypscloud.training.subject', string='科目')
     
     desc = fields.Text(string='描述')
 
